@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="174195cb-1c9d-49eb-a47c-68e0f115c30a" name="Changes" comment="init" />
+    <list default="true" id="174195cb-1c9d-49eb-a47c-68e0f115c30a" name="Changes" comment="新增bug技能和需求技能" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/py/agents-skills/skills/work/db-sql-safety",
+    "last_opened_file_path": "D:/py/agents-skills/skills/work/bug-investigation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,11 +53,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\py\agents-skills\skills\work\bug-investigation" />
+      <recent name="D:\py\agents-skills\skills\work\requirement-analysis" />
       <recent name="D:\py\agents-skills\skills\work\db-sql-safety" />
       <recent name="D:\py\agents-skills\skills\work\python-env" />
       <recent name="D:\py\agents-skills\skills\work\frontend-env" />
-      <recent name="D:\py\agents-skills\skills\work\ai-agent-rag" />
-      <recent name="D:\py\agents-skills\skills\work\java-backend-dev" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -74,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792983831047</updated>
-      <workItem from="1792983832092" duration="2437000" />
+      <workItem from="1792983832092" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -84,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792987511605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增bug技能和需求技能">
+      <option name="closed" value="true" />
+      <created>1792988190568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792988190568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="新增bug技能和需求技能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增bug技能和需求技能" />
   </component>
 </project>
