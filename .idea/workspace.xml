@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="174195cb-1c9d-49eb-a47c-68e0f115c30a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/agents-skills.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/work/ai-agent-rag/SKILL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/work/db-sql-safety/SKILL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/work/frontend-env/SKILL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/work/java-backend-dev/SKILL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/work/project-map/SKILL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills/work/python-env/SKILL.md" afterDir="false" />
-    </list>
+    <list default="true" id="174195cb-1c9d-49eb-a47c-68e0f115c30a" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "thisdcw"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/thisdcw/agents-skills.git",
+    "accountId": "0397d095-236f-43a3-8417-0079eed331aa"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3,
   "fromUser": false
@@ -78,11 +74,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792983831047</updated>
-      <workItem from="1792983832092" duration="1896000" />
+      <workItem from="1792983832092" duration="2437000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1792987511605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792987511605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
