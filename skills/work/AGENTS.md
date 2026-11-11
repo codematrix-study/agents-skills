@@ -70,6 +70,7 @@
 
 `git reset --hard`、`git clean`、`git push --force / --force-with-lease`、`git branch -D`、`git rebase`、`git merge`、删除或覆盖远程分支、修改 master。
 不要为了快速解决问题而擅自执行破坏性 Git 操作。
+`project-map` 中标注“禁止”的 Git 操作（如 `esign-saas-pc` 的 master 与 `feature_dingding` 互相合并），同样不得擅自执行：遇到时先提醒该禁止规则及风险，用户明确确认后才可执行。
 
 ---
 
@@ -115,8 +116,9 @@ Java 项目：未明确要求时，**不主动**执行 `mvn clean package`、`mv
 |---|---|
 | 排查 bug、报错、异常日志、接口返回不对、数据不一致 | `bug-investigation` |
 | 新需求分析、方案设计、评估改动范围与影响面 | `requirement-analysis` |
+| 用户明确说“验收”（出验收单、验收清单、验收某次提交/某个分支/当前改动） | `acceptance-checklist` |
 | 压缩上下文、总结进度、新开会话交接 | `context-handoff` |
-| 需要了解或定位某个项目的职责、路径、技术栈、模块 | `project-map` |
+| 需要了解/定位某个项目的职责、路径、技术栈、模块 | `project-map` |
 | Java / Spring Boot / MyBatis 项目开发、静态检查、修改接口 | `java-backend-dev` |
 | 涉及 SQL、表结构、数据迁移 | `db-sql-safety` |
 | Python 项目（虚拟环境、依赖） | `python-env` |
@@ -127,7 +129,10 @@ Java 项目：未明确要求时，**不主动**执行 `mvn clean package`、`mv
 
 - 排查问题和需求分析属于分析类任务：默认只读，先在对话中给出结论，等我确认后再进入开发。
 - 进入开发后，仍遵循本文的 Git、验证、安全和汇报规范。
-- 通用提醒：不擅自替换项目技术栈；优先复用项目已有代码与架构。
+- 验收单仅在我明确说“验收”时输出，开发完成后不自动输出；输出在第 7 章最终汇报之后，不重复汇报内容。
+- skill 与本文冲突时：Git、安全、验证红线以本文为准，skill 只补充细节。
+
+通用提醒：不擅自替换项目技术栈；优先复用项目已有代码与架构。
 
 ---
 
