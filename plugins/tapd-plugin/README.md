@@ -16,6 +16,8 @@
 
 ## 安装和检查
 
+### 方法一
+
 在 `agents-skills` 仓库根目录运行。
 
 ```powershell
@@ -27,6 +29,7 @@ codex plugin add 'tapd-plugin@agents-skills'
 
 从设置令牌的 PowerShell 窗口运行 `codex --no-daemon`，或重启桌面版后打开新会话。CLI 中用 `/plugins` 查看 **TAPD**，用 `/mcp` 确认 `tapd` 可用，并检查工具列表中是否有 `get_stories_or_tasks`、`get_bug`。如需查看启动信息，在 CLI 中运行 `/mcp verbose`。 [Codex 开发者命令](https://learn.chatgpt.com/docs/developer-commands?surface=cli)
 
+### 方法二
 
 也可以直接在cc switch中的MCP进行添加,直接"粘贴配置"
 ```json
