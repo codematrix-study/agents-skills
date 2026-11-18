@@ -1,0 +1,20 @@
+{
+  "name": "agents-skills",
+  "interface": {
+    "displayName": "Agents Skills"
+  },
+  "plugins": [
+    {
+      "name": "tapd-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tapd-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tapd": {
+      "command": "uvx",
+      "args": ["mcp-server-tapd"],
+      "env_vars": ["TAPD_ACCESS_TOKEN"],
+      "env": {
+        "TAPD_API_BASE_URL": "https://api.tapd.cn",
+        "TAPD_BASE_URL": "https://www.tapd.cn"
+      },
+      "startup_timeout_sec": 60
+    }
+  }
+}

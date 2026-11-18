@@ -1,0 +1,16 @@
+{
+  "name": "tapd-plugin",
+  "version": "0.1.0",
+  "description": "查询和更新 TAPD 需求、缺陷和任务，支持从读取单据到开发后回写。",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "TAPD",
+    "shortDescription": "查询需求、缺陷和任务，确认后回写结果",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "读取这条 TAPD 需求的详情，整理目标和验收点。"
+    ]
+  }
+}
