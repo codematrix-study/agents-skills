@@ -27,6 +27,24 @@ codex plugin add 'tapd-plugin@agents-skills'
 
 从设置令牌的 PowerShell 窗口运行 `codex --no-daemon`，或重启桌面版后打开新会话。CLI 中用 `/plugins` 查看 **TAPD**，用 `/mcp` 确认 `tapd` 可用，并检查工具列表中是否有 `get_stories_or_tasks`、`get_bug`。如需查看启动信息，在 CLI 中运行 `/mcp verbose`。 [Codex 开发者命令](https://learn.chatgpt.com/docs/developer-commands?surface=cli)
 
+
+也可以直接在cc switch中的MCP进行添加,直接"粘贴配置"
+```json
+{
+  "mcpServers": {
+    "tapd": {
+      "command": "uvx",
+      "args": ["mcp-server-tapd"],
+      "env": {
+        "TAPD_ACCESS_TOKEN": "你的个人令牌",
+        "TAPD_API_BASE_URL": "https://api.tapd.cn",
+        "TAPD_BASE_URL": "https://www.tapd.cn"
+      }
+    }
+  }
+}
+```
+
 ## 使用示例
 
 - `读取 TAPD 需求 <测试需求链接>，告诉我标题、当前状态和验收点。` 用这一条做只读联调，核对返回的单号、标题和状态与 TAPD 页面一致。
